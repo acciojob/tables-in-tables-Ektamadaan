@@ -7,16 +7,67 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-	  <style>
-		  table , tr ,td, th {
-			  border = "1 px"
-		  }
-	  </style>
-    <table style="width: 100%; height: 100%">
-      <tr>
-		  <td></td>
-		  <td></td>
-	  </tr>
+	  
+    <table border = " 1 px" style="width: 100%; height: 100%">
+	<tr>
+		<td>
+			<!--- Table 2 ---->
+			<table border = " 1 px" style="width: 100%; height: 100%">
+				<tr>
+					<th colspan = "2">Nested Table 2</th>
+				</tr>
+				<tr>
+					<th>Column 1</th>
+					<th>Column 2</th>
+				</tr>
+				<tr>
+					<td align = "center">abc</td>
+					<td align = "center">def</td>
+				</tr>
+			</table>
+		</td>
+		<td>
+			<!---- table 1 ---->
+				<table border = " 1 px" style="width: 100%; height: 100%">
+					<tr>
+						<th colspan = "2">Nested Table 1</th>
+					</tr>
+					<tr><td>
+						<ul>
+							<li>List item</li>
+							<li>List item</li>
+							<li>List item</li>
+						</ul></td>
+					</tr>
+				</table>
+		</td>
+	</tr>
+		<tr>
+			<td>
+				<!---- table 3 ----->
+					<table border = " 1 px" style="width: 100%; height: 100%">
+						<tr>
+							<th colspan = "2">Nested Table 3</th>
+						</tr>
+						<tr>
+							<td><a href = "#">Nested Table</a></td>
+							<td>Demo Continued</td>
+						</tr>
+					</table>
+			</td>
+			<td>
+				<!--- table 4 ---->
+					<table border = " 1 px" style="width: 100%; height: 100%">
+						<tr>
+							<th colspan="2">Nested Table 4</th>
+						</tr>
+						<tr>
+							<td style= color:white colspan = "2" bgcolor="black" align="center">HTML</td>
+						</tr>
+					</table>
+			</td>
+		</tr>
+		
     </table>
   </body>
 </html>
